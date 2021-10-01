@@ -1,7 +1,7 @@
 package polymorphismExamsple;
 
 public class Vehicle {
-    protected  String start;
+    protected String start;
     protected String stop;
     protected String speed;
     protected String direction;
