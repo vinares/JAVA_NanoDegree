@@ -7,7 +7,7 @@ import java.util.Collection;
 
 public class CustomerSevice {
     private static CustomerSevice customerSevice = null;
-    private static Collection<Customer> customers;
+    protected static Collection<Customer> customers;
 
     private CustomerSevice(){
         this.customers = new ArrayList<>();
