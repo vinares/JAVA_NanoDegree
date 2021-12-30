@@ -3,13 +3,29 @@ package api;
 import model.Customer;
 import model.IRoom;
 import model.Reservation;
+import service.CustomerSevice;
 import service.ReservationService;
 
 import java.util.Collection;
 import java.util.Date;
 
 public class HotelResource {
-    private static HotelResource hotelResource;
+    private static volatile HotelResource hotelResource = null;
+    static CustomerSevice customerSevice = CustomerSevice.getInstance();
+    static ReservationService reservationService = ReservationService.getInstance();
+
+    private HotelResource(){}
+
+    public static HotelResource getInstance() {
+        if (hotelResource == null){
+            synchronized (HotelResource.class) {
+                if (hotelResource == null) {
+                    hotelResource = new HotelResource();
+                }
+            }
+        }
+        return hotelResource;
+    }
 
     public Customer getCustomer(String email){return service.CustomerSevice.getCustomer(email);}
 

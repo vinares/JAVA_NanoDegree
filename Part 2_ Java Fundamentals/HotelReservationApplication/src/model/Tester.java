@@ -2,7 +2,7 @@ package model;
 
 public class Tester {
     public static void main(String[] args){
-        Customer customer = new Customer("fisrt", "second", "@domain.com");
+        Customer customer = new Customer("fisrt", "second", "you@domain.com");
 
         System.out.println(customer);
     }

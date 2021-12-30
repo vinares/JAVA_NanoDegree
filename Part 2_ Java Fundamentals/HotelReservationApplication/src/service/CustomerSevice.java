@@ -6,11 +6,22 @@ import java.util.ArrayList;
 import java.util.Collection;
 
 public class CustomerSevice {
-    private static CustomerSevice customerSevice = null;
+    private static volatile CustomerSevice customerSevice = null;
     protected static Collection<Customer> customers;
 
     private CustomerSevice(){
         this.customers = new ArrayList<>();
+    }
+
+    public static CustomerSevice getInstance(){
+        if (customerSevice == null) {
+            synchronized (CustomerSevice.class) {
+                if (customerSevice == null) {
+                    customerSevice = new CustomerSevice();
+                }
+            }
+        }
+        return customerSevice;
     }
 
     public static void addCustomer(String firstName, String lastNmae, String email){

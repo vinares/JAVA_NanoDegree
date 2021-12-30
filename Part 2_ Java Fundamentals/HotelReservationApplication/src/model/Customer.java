@@ -34,7 +34,7 @@ public class Customer {
         if (pattern.matcher(email).matches()){
             this.email = email;}
         else{
-            throw new IllegalArgumentException("\"" + email + "\"" + " is not a valid email address");
+            throw new IllegalArgumentException("\"" + email + "\"" + " is not a valid email address!");
         }
     }
 
@@ -52,7 +52,7 @@ public class Customer {
 
     @Override
     public String toString(){
-        return this.firstName + " " + this.lastName + "'s email address is:" + this.email;
+        return this.firstName + " " + this.lastName + " - " + this.email;
 
     }
 }

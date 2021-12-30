@@ -1,5 +1,7 @@
 package model;
 
+import java.text.SimpleDateFormat;
+import java.time.format.DateTimeFormatter;
 import java.util.Date;
 
 public class Reservation {
@@ -33,6 +35,12 @@ public class Reservation {
 
     @Override
     public String toString(){
-        return "";
+        String person = this.customer.firstName + " " + this.customer.lastName;
+        String room = this.room.getRoomNumber().toString();
+        SimpleDateFormat dateTimeFormatter = new SimpleDateFormat("MM-dd-yyyy");
+        String start = dateTimeFormatter.format(this.checkInDate);
+        String end =dateTimeFormatter.format(this.checkOutDate);
+
+        return person + " booked " + room + " from " + start + " to " + end + ".";
     }
 }

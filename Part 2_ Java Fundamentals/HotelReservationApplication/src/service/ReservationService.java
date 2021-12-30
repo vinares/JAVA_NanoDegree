@@ -1,22 +1,35 @@
 package service;
 
-import model.Customer;
-import model.IRoom;
-import model.Reservation;
+import model.*;
 
+import java.awt.*;
 import java.util.*;
+import java.util.List;
 
 public class ReservationService {
-    private static ReservationService reservationService = null;
+    private static volatile ReservationService reservationService = null;
     protected static Set<IRoom> rooms;
     protected static Set<Reservation> reservations;
 
-    private ReservationService(){
-        this.rooms = new HashSet<>();
-        this.reservations = new HashSet<>();
+    public static ReservationService getInstance(){
+        if (reservationService == null) {
+            synchronized (ReservationService.class) {
+                if (reservationService == null) {
+                    reservationService = new ReservationService();
+                }
+            }
+        }
+        return reservationService;
     }
 
-    public static void addRoom(IRoom room){rooms.add(room);}
+    private ReservationService(){
+        rooms = new HashSet();
+        reservations = new HashSet();
+    }
+
+    public static void addARoom(IRoom room){
+        rooms.add(room);
+    }
 
     public static IRoom getARoom(String roomId){
         for (IRoom room : rooms){
@@ -33,48 +46,52 @@ public class ReservationService {
         return reservation;
     }
 
-    public static Collection<IRoom> findAvailableRooms(Date checkInDate, Date checkOutDate){
-        List<IRoom> availables = new ArrayList<>();
-
-        for (Reservation reservation : reservations) {
-            for (IRoom room : rooms) {
-                if (reservation.getRoom().equals(room)) {
-                    availables.add(room);
-                    if (!(reservation.getCheckInDate().after(checkOutDate) || reservation.getCheckInDate().before(checkInDate))) {
-                        availables.remove(room);
-                    }
+    public static Collection<IRoom> findRooms(Date checkInDate, Date checkOutDate){
+            List<IRoom> availables = new ArrayList();
+            HashSet<IRoom> unavailables = new HashSet<IRoom>();
+            for (Reservation reservation:reservations){
+                if (unavailables.contains(reservation.getRoom())) {
+                    continue;
+                }
+                Date start = reservation.getCheckInDate();
+                Date end = reservation.getCheckOutDate();
+                if ((start.after(checkInDate) && start.before(checkOutDate))||(end.after(checkInDate)&&end.before(checkOutDate))||(checkInDate.before(end)&&checkInDate.after(start))||(checkOutDate.after(start)&&checkOutDate.before(end))){
+                    unavailables.add(reservation.getRoom());
                 }
             }
+
+            for (IRoom room: rooms){
+                if (!unavailables.contains(room)){
+                    availables.add(room);
+                }
+            }
+            return availables;
         }
-        return availables;
-    }
 
     public static Collection<Reservation> getCustomersReservation(Customer customer){
-        List<Reservation> customersReservation = new ArrayList<>();
-        for (Reservation reservation : reservations){
+        List<Reservation> customerReservation = new ArrayList();
+        for (Reservation reservation: reservations){
             if (reservation.getCustomer().equals(customer)){
-                customersReservation.add(reservation);
+                customerReservation.add(reservation);
             }
         }
-        return customersReservation;
+        return customerReservation;
     }
-
-    public static Collection<IRoom> findRooms(Date checkInDate, Date checkOutDate){
-        if (reservations.isEmpty()){
-            return rooms;
-        }else{
-            return findAvailableRooms(checkInDate, checkOutDate);
-        }
-    }
-
     public static void printAllReservation(){
+        Integer i = 0;
         if (reservations.isEmpty()) {
-            System.out.println("There's no reservations yet.");
-        } else {
-            System.out.println(reservations);
+            System.out.println("There's no reservations.");
+        }
+        else {
+            for (Reservation reservation : reservations) {
+                i += 1;
+                System.out.println(i.toString() + ". " + reservation);
+            }
         }
     }
 
-    public static Collection<IRoom> getAllRooms(){return rooms;}
+    public static Collection<IRoom> getAllRooms(){
+        return rooms;
+    }
 
 }

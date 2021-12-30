@@ -9,13 +9,24 @@ import java.util.Collection;
 import java.util.List;
 
 public class AdminResource {
-    private static AdminResource adminResource;
+    private static volatile AdminResource adminResource = null;
+
+    public static AdminResource getInstance(){
+        if (adminResource == null){
+            synchronized (AdminResource.class) {
+                if (adminResource == null) {
+                    adminResource = new AdminResource();
+                }
+            }
+        }
+        return adminResource;
+    }
 
     public Customer getCustomer(String email){return service.CustomerSevice.getCustomer(email);}
 
     public void addRoom(List<IRoom> rooms){
         for (IRoom room : rooms){
-            ReservationService.addRoom(room);
+            ReservationService.addARoom(room);
         }
     }
     public Collection<IRoom> getAllRooms(){return ReservationService.getAllRooms();}
