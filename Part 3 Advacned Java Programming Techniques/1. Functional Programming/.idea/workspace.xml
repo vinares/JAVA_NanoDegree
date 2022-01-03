@@ -1,0 +1,172 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="1eea729f-716b-4f9a-896e-7b3e1ea72874" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/runConfigurations.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Part 2_ Java Fundamentals/.idea/workspace.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Part 2_ Java Fundamentals/1. Java Fundementals/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Part 2_ Java Fundamentals/1. Java Fundementals/.idea/.name" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Part 2_ Java Fundamentals/1. Java Fundementals/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Part 2_ Java Fundamentals/1. Java Fundementals/.idea/runConfigurations.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Part 2_ Java Fundamentals/1. Java Fundementals/1. Java Fundementals.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Part 2_ Java Fundamentals/1. Java Fundementals/firstClass/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Part 2_ Java Fundamentals/1. Java Fundementals/firstClass/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Part 2_ Java Fundamentals/1. Java Fundementals/firstClass/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Part 2_ Java Fundamentals/1. Java Fundementals/firstClass/.idea/runConfigurations.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Part 2_ Java Fundamentals/1. Java Fundementals/firstClass/firstClass.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Part 2_ Java Fundamentals/1. Java Fundementals/firstClass/out/production/firstClass/code/firstclass.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Part 2_ Java Fundamentals/1. Java Fundementals/firstClass/src/Dog.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Part 2_ Java Fundamentals/1. Java Fundementals/firstClass/src/code/firstclass.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Part 2_ Java Fundamentals/1. Java Fundementals/glossary.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Part 2_ Java Fundamentals/4. Object-Oriented Programming/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Part 2_ Java Fundamentals/4. Object-Oriented Programming/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Part 2_ Java Fundamentals/4. Object-Oriented Programming/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Part 2_ Java Fundamentals/4. Object-Oriented Programming/.idea/runConfigurations.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Part 2_ Java Fundamentals/4. Object-Oriented Programming/4. Object-Oriented Programming.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Part 2_ Java Fundamentals/4. Object-Oriented Programming/lesson3.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Part 2_ Java Fundamentals/4. Object-Oriented Programming/out/production/lesson3/inheritanceExample/Person.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Part 2_ Java Fundamentals/4. Object-Oriented Programming/out/production/lesson3/inheritanceExample/PersonTester.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Part 2_ Java Fundamentals/4. Object-Oriented Programming/out/production/lesson3/inheritanceExample/Student.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Part 2_ Java Fundamentals/4. Object-Oriented Programming/out/production/lesson3/inheritanceExample/StudentEmployee.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Part 2_ Java Fundamentals/4. Object-Oriented Programming/out/production/lesson3/polymorphismExamsple/Boat.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Part 2_ Java Fundamentals/4. Object-Oriented Programming/out/production/lesson3/polymorphismExamsple/Car.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Part 2_ Java Fundamentals/4. Object-Oriented Programming/out/production/lesson3/polymorphismExamsple/Plane.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Part 2_ Java Fundamentals/4. Object-Oriented Programming/out/production/lesson3/polymorphismExamsple/Vehicle.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Part 2_ Java Fundamentals/4. Object-Oriented Programming/out/production/lesson3/polymorphismExamsple/VehicleTester.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Part 2_ Java Fundamentals/4. Object-Oriented Programming/src/inheritanceExample/Person.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Part 2_ Java Fundamentals/4. Object-Oriented Programming/src/inheritanceExample/PersonTester.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Part 2_ Java Fundamentals/4. Object-Oriented Programming/src/inheritanceExample/Student.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Part 2_ Java Fundamentals/4. Object-Oriented Programming/src/inheritanceExample/StudentEmployee.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Part 2_ Java Fundamentals/4. Object-Oriented Programming/src/interfaceExample/Car.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Part 2_ Java Fundamentals/4. Object-Oriented Programming/src/interfaceExample/Vehicle.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Part 2_ Java Fundamentals/4. Object-Oriented Programming/src/polymorphismExamsple/Boat.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Part 2_ Java Fundamentals/4. Object-Oriented Programming/src/polymorphismExamsple/Car.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Part 2_ Java Fundamentals/4. Object-Oriented Programming/src/polymorphismExamsple/Plane.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Part 2_ Java Fundamentals/4. Object-Oriented Programming/src/polymorphismExamsple/Vehicle.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Part 2_ Java Fundamentals/4. Object-Oriented Programming/src/polymorphismExamsple/VehicleTester.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Part 2_ Java Fundamentals/5. Common Types/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Part 2_ Java Fundamentals/5. Common Types/.idea/.name" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Part 2_ Java Fundamentals/5. Common Types/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Part 2_ Java Fundamentals/5. Common Types/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Part 2_ Java Fundamentals/5. Common Types/.idea/runConfigurations.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Part 2_ Java Fundamentals/5. Common Types/5. Common Types.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Part 2_ Java Fundamentals/5. Common Types/lesson5.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Part 2_ Java Fundamentals/5. Common Types/out/production/lesson5/datesAndCalenders/DatesAndCalendar.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Part 2_ Java Fundamentals/5. Common Types/out/production/lesson5/exceptionExcample/Phone.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Part 2_ Java Fundamentals/5. Common Types/out/production/lesson5/exceptionExcample/phoneExceptionTester.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Part 2_ Java Fundamentals/5. Common Types/out/production/lesson5/regExExample/RegExTester.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Part 2_ Java Fundamentals/5. Common Types/out/production/lesson5/scannerExample/UserInputTester.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Part 2_ Java Fundamentals/5. Common Types/src/datesAndCalenders/DatesAndCalendar.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Part 2_ Java Fundamentals/5. Common Types/src/exceptionExcample/Phone.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Part 2_ Java Fundamentals/5. Common Types/src/exceptionExcample/phoneExceptionTester.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Part 2_ Java Fundamentals/5. Common Types/src/regExExample/RegExTester.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Part 2_ Java Fundamentals/5. Common Types/src/scannerExample/UserInputTester.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Part 2_ Java Fundamentals/6. Generics and Collections/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Part 2_ Java Fundamentals/6. Generics and Collections/.idea/.name" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Part 2_ Java Fundamentals/6. Generics and Collections/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Part 2_ Java Fundamentals/6. Generics and Collections/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Part 2_ Java Fundamentals/6. Generics and Collections/.idea/runConfigurations.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Part 2_ Java Fundamentals/6. Generics and Collections/6. Generics and Collections.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Part 2_ Java Fundamentals/6. Generics and Collections/out/production/6. Generics and Collections/collectionsExample/CollectionsExercise.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Part 2_ Java Fundamentals/6. Generics and Collections/out/production/6. Generics and Collections/collectionsExample/SortingExample.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Part 2_ Java Fundamentals/6. Generics and Collections/out/production/6. Generics and Collections/genericExample/GenericsExercise.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Part 2_ Java Fundamentals/6. Generics and Collections/out/production/6. Generics and Collections/iteratorExample/IteratorExercise.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Part 2_ Java Fundamentals/6. Generics and Collections/src/collectionsExample/CollectionsExercise.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Part 2_ Java Fundamentals/6. Generics and Collections/src/collectionsExample/SortingExample.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Part 2_ Java Fundamentals/6. Generics and Collections/src/genericExample/GenericsExercise.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Part 2_ Java Fundamentals/6. Generics and Collections/src/iteratorExample/IteratorExercise.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Part 2_ Java Fundamentals/7. Advanced Collections/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Part 2_ Java Fundamentals/7. Advanced Collections/.idea/.name" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Part 2_ Java Fundamentals/7. Advanced Collections/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Part 2_ Java Fundamentals/7. Advanced Collections/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Part 2_ Java Fundamentals/7. Advanced Collections/.idea/runConfigurations.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Part 2_ Java Fundamentals/7. Advanced Collections/7. Advanced Collections.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Part 2_ Java Fundamentals/7. Advanced Collections/out/production/7. Advanced Collections/mapsExample/MapExercise.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Part 2_ Java Fundamentals/7. Advanced Collections/out/production/7. Advanced Collections/mapsExample/Person.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Part 2_ Java Fundamentals/7. Advanced Collections/src/mapsExample/MapExercise.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Part 2_ Java Fundamentals/7. Advanced Collections/src/mapsExample/Person.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Part 2_ Java Fundamentals/HotelReservationApplication/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Part 2_ Java Fundamentals/HotelReservationApplication/.idea/compiler.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Part 2_ Java Fundamentals/HotelReservationApplication/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Part 2_ Java Fundamentals/HotelReservationApplication/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Part 2_ Java Fundamentals/HotelReservationApplication/.idea/runConfigurations.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Part 2_ Java Fundamentals/HotelReservationApplication/.idea/uiDesigner.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Part 2_ Java Fundamentals/HotelReservationApplication/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Part 2_ Java Fundamentals/HotelReservationApplication/HotelReservationApplication.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Part 2_ Java Fundamentals/HotelReservationApplication/src/AdminMenu.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Part 2_ Java Fundamentals/HotelReservationApplication/src/Application.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Part 2_ Java Fundamentals/HotelReservationApplication/src/MainMenu.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Part 2_ Java Fundamentals/HotelReservationApplication/src/api/AdminResource.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Part 2_ Java Fundamentals/HotelReservationApplication/src/api/HotelResource.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Part 2_ Java Fundamentals/HotelReservationApplication/src/model/Customer.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Part 2_ Java Fundamentals/HotelReservationApplication/src/model/FreeRoom.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Part 2_ Java Fundamentals/HotelReservationApplication/src/model/IRoom.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Part 2_ Java Fundamentals/HotelReservationApplication/src/model/Reservation.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Part 2_ Java Fundamentals/HotelReservationApplication/src/model/Room.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Part 2_ Java Fundamentals/HotelReservationApplication/src/model/RoomType.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Part 2_ Java Fundamentals/HotelReservationApplication/src/model/Tester.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Part 2_ Java Fundamentals/HotelReservationApplication/src/service/CustomerSevice.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Part 2_ Java Fundamentals/HotelReservationApplication/src/service/ReservationService.java" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="package.json" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
+  </component>
+  <component name="ProjectId" id="234XbDz6XpkgN8N6tECwWrzAgHU" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="1eea729f-716b-4f9a-896e-7b3e1ea72874" name="Changes" comment="" />
+      <created>1640994401462</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1640994401462</updated>
+      <workItem from="1640994402711" duration="107000" />
+      <workItem from="1640994554370" duration="57000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+  </component>
+</project>
